@@ -5,6 +5,9 @@ Dog.destroy_all
   Dog.create(name: Faker::Dog.name, breed: Faker::Dog.breed, age: Faker::Dog.age)
 end
 
+Employee.create(first_name: 'Shawn', last_name: 'Tannor', alias: 'the guy',title: 'Sir', office: 'the principals', img_url: "https://s-i.huffpost.com/gen/2028878/images/n-UPROXX-628x314.jpg", dog_id: 5) 
+
+
 Employee.create(first_name: "Jim", last_name: "Halpert", alias: "Big Tuna", title: "Regional Co-Manager", office: "Scranton", dog_id: 2, img_url: "https://s-i.huffpost.com/gen/2028878/images/n-UPROXX-628x314.jpg")
 Employee.create(first_name: "Michael", last_name: "Scott", alias: "Prison Mike", title: "Regional Manager", office: "Scranton", dog_id: 1, img_url: "https://i2.wp.com/mtncatholic.com/wp-content/uploads/2016/10/6357600113572837231773916132_michael-scott-s-top-tantrums.png?fit=500%2C359")
 Employee.create(first_name: "Karen", last_name: "Filippelli", alias: "none", title: "Sales Representative", office: "Stamford", dog_id: 3, img_url: "https://i.redd.it/vigerabg4x7z.jpg")

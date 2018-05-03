@@ -1,0 +1,7 @@
+<% @employees.each do |emp|%>
+<%= link_to emp.to_s, emp%>
+    <ul>
+    <li><%= link_to emp.dog.name, emp.dog %></li>
+    </ul>
+<br>
+<%end%>
